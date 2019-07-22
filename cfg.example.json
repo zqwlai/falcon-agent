@@ -10,15 +10,14 @@
     },
     "heartbeat": {
         "enabled": true,
-        "addr": "172.18.7.14:6030",
+        "addr": "127.0.0.1:6030",
         "interval": 60,
         "timeout": 1000
     },
     "transfer": {
         "enabled": true,
         "addrs": [
-            "172.18.7.14:8433",
-            "172.18.7.14:8433"
+            "127.0.0.1:8433"
         ],
         "interval": 60,
         "timeout": 1000
